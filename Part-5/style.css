@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/7hBpZY1W/dreamlike-surrealistic-landscape-wallpaper-purple-tones.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    background-color: rgb(234, 28, 161);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: white;
+}
+#nav h2{
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 30%;
+    padding: 160px 60px;
+    position: absolute;
+    top: 0;
+    right: -30%;
+    backdrop-filter:blur(10x);
+    background-color: rgba(212, 157, 202, 0.544);
+}
+
+#full h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    border-radius: 50%;
+    padding: 5px 6px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    color: blueviolet;
+    background-color: #fff;
+}
