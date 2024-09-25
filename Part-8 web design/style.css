@@ -1,0 +1,227 @@
+@font-face{
+    font-family: newMachia;
+    src: url(./3856NeueMachina.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: "Playwrite DE Grund", cursive;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+nav h1{
+    font-size: 25px;
+    font-weight:900;
+}
+nav h1 i{
+    rotate: 45deg;
+    font-size: 35px;
+    display: inline-block;
+}
+nav h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 10px 25px;
+    font-size: 16px ;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+}
+
+.center{
+    display: flex;
+    height: 75%;
+    width: 100%;
+    padding: 60px 70px 0px 70px;
+}
+
+.center-part1{
+    height: 90%;
+    width: 40%;
+}
+
+.center-part1 h1{
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: newMachia;
+}
+
+.center-part1 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button{
+    padding: 10px 25px;
+    font-size: 15px ;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+.center-part2{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.center-part2 img{
+    height: 500px;
+    width: 100%;
+    filter: hue-rotate(-5deg) saturate(150%) brightness(120%);
+}
+
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px 0px 70px;
+}
+
+.section1bottom img{
+    width: 10%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+.section2 .services{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 120px;
+    gap:20px;
+    margin-top: 30px;
+}
+
+.services .services-h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03E946;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-family: newMachia;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.services p{
+    width: 40%;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    padding: 20px 120px;
+    /* gap: 30px; */
+}
+.elem{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    height: 40%;
+    width: 42%;
+    padding: 40px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0 20px 0px black;
+}
+
+.elem-p1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-p1 h2{
+    background-color: #03E946;
+    width: 80%;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+.elem-p1 h4{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 10px;
+}
+.elem-p1 h4 i{
+    padding: 4px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+}
+
+.elem-p2{
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.elem-p2 img{
+    height: 100%;
+}
+
+.black{
+    background-color: black;
+
+}
+.black h2{
+    background-color: white;
+}
+.black h4{
+    color: white;
+}
+.black h4 i{
+    color: black;
+    background-color: #fff;
+}
