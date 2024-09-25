@@ -17,9 +17,12 @@ body{
 }
 h1{
     font-size: 100px;
-    color: white;
+    color: rgb(16, 184, 196);
     overflow-y: hidden;
 }
 h1 span{
     display: inline-block;
+}
+h1 .left {
+    color:red
 }

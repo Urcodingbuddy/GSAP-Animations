@@ -20,8 +20,17 @@ gsap.from('h1 .left', {
     opacity: 0,
     duration: 0.7,
     delay: 0.5,
-    stagger: 0.15
+    stagger: 0.15,
+    
 })
+
+// gspa.to('h1 .left',{
+//     color:"red",    y: 70,
+//     opacity: 0,
+//     duration: 0.7,
+//     delay: 0.5,
+//     stagger: 0.15,
+// })
 
 gsap.from('h1 .right', {
     y: 70,
