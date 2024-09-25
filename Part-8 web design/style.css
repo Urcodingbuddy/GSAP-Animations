@@ -14,6 +14,7 @@ html, body{
 }
 body{
     font-family: "Playwrite DE Grund", cursive;
+    overflow-x: hidden;
 }
 section{
     height: 100%;
